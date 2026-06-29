@@ -1,0 +1,36 @@
+/* Customizações extras para o Job Tracker */
+
+/* 1. Suavizar o scroll da página */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 2. Efeito de transição suave nos cards de vagas */
+#lista-vagas > div {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* 3. Efeito "Hover" (passar o mouse por cima) nos cards */
+#lista-vagas > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #4f46e5; /* Cor indigo-600 do Tailwind */
+}
+
+/* 4. Estilização da barra de rolagem (Scrollbar) estilo Dark Mode */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1f2937; /* Gray-800 */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b5563; /* Gray-600 */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4f46e5; /* Indigo-600 */
+}

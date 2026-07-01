@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:8080/api/vagas";
+const API_URL = "https://jobtracker-backend-743r.onrender.com/api/vagas";
 
 const formVaga = document.getElementById("form-vaga");
 const listaVagas = document.getElementById("lista-vagas");

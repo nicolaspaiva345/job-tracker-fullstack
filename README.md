@@ -30,3 +30,6 @@ O **JobTracker** é uma solução Full Stack moderna projetada para centralizar,
 * **Render:** * Hospedagem da API como *Web Service*.
   * Hospedagem do banco de dados relacional gerido (*PostgreSQL*).
   * Hospedagem do ecossistema visual como *Static Site*.
+    
+Link Deploy:
+    https://job-tracker-dmn2.onrender.com/
